@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tormenta</title>
+    <link rel="stylesheet" href="stilo.css">
+    <script type="module" src ="./principal.js"></script>
+   
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__titulo">
+            <img class="imagem" src="assets/logo.jpg" alt="">
+        </h1>
+        <nav class="header__menu">
+            <a class="header__link" href="index.html">Inicio</a>
+            <a class="header__link" href="catalogo.html">Catalogo</a>
+            <a class="header__link" href="contacto.html">Contacto</a>
+            <a href="./carro.html" class="header__carrinho">
+                <img src="media/carrito.svg" alt="">
+            </a>
+            <span id="carro-contidad-items" class="carro-compras__items" class="">0</span>
+      </nav>
+
+    </header>
+    <main id="contenedor">
+        <section>
+            <header class="cuerpo-cabecera">
+                <h2>Juegos</h2>
+            </header>
+           
+            <div class="contenedor-productos" id="contenedor-productos">
+               
+                <article class="productos">
+                    <figure class="productos__fig">
+                        <img src="" alt="" />
+                    </figure>
+                    <div class="productos__datos">
+                        <h3>Titulo</h3>
+                        <div>$ 3000</div>
+                    </div>
+                    <button
+                        class="productos__boton" data-btn-carro data-id="0"
+                    >
+                    <img src="./media/carrito.svg" alt="Icono carrito compras"/>
+                        Agregar carrito
+                    </button>
+                </article>
+               
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Tormenta|rpg</p>
+        <p>&copy;2023</p>
+    </footer>
+</body>
+</html>
