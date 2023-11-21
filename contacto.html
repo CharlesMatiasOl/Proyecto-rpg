@@ -4,136 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tormenta</title>
+    <link rel="stylesheet" href="./style.css">
     
-    <style>
-        
-        body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f5f5f5;
-    color: #333;
-}
-
-.header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.header__titulo img {
-    max-width: 100%;
-    height: auto;
-}
-
-.header__menu {
-    display: flex;
-}
-
-.header__link {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.header__link::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #ff9900;
-    transition: width 0.3s ease;
-}
-
-.header__link:hover,
-.header__link:focus {
-    color: #ff9900;
-}
-
-.header__link:hover::after,
-.header__link:focus::after {
-    width: 100%;
-}
-
-.main {
-    padding: 20px;
-}
-
-.main h2 {
-    color: #333;
-}
-
-main p {
-    color: #333;
-    line-height: 1.6;
-}
-
-address {
-    margin-top: 20px;
-}
-
-address p {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #ff9900;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #333;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-    </style>
+    
 </head>
-<body class="body">
-    <header class="header">
-        <h1 class="header__titulo">
+<body class="contacto">
+    <header class="contacto__header">
+        <h1 class="contacto__header-titulo">
             <img src="assets/logo.jpg" alt="Logo Tormenta RPG">
         </h1>
-        <nav class="header__menu">
-            <a class="header__link" href="index.html">Inicio</a>
-            <a class="header__link" href="catalogo.html">Catalogo</a>
-            <a class="header__link" href="contacto.html">Contacto</a>
+        <nav class="contacto__header-menu">
+            <a class="contacto__header-link" href="index.html">Inicio</a>
+            <a class="contacto__header-link" href="catalogo.html">Catalogo</a>
+            <a class="contacto__header-link" href="contacto.html">Contacto</a>
         </nav>
     </header>
-    <main class="main">
+    <main class="contacto__main">
         <h2>Información de contacto</h2>
         <p>Contáctanos para cualquier duda o consulta:</p>
-        <address>
+        <address class="contacto__address">
             <p>Dirección: Av. Duarte Quirós 200</p>
             <p>Ciudad: Córdoba</p>
             <p>CEP: 12345-678</p>
         </address>
-        <p>Correo electrónico: <a href="mailto:TormentaRpg@gmail.com">TormentaRpg@gmail.com</a></p>
+        <p>Correo electrónico: <a class="contacto__link" href="mailto:TormentaRpg@gmail.com">TormentaRpg@gmail.com</a></p>
         <p>Teléfono: (351) 768-6611</p>
     </main>
-    <footer>
+    <footer class="contacto__footer">
         <p class="site">&copy; Tormenta|rpg</p> 
         <p class="site">&copy;2023</p>
     </footer>
 </body>
-
 </html>

@@ -5,147 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tormenta</title>
     <script type="module" src="./carrito.js"></script>
-    
-    <style>
-
-body, h1, h2, h3, p, figure, img, button {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-.header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__titulo img {
-    max-width: 100%;
-    height: auto;
-}
-
-.header__menu {
-    display: flex;
-    gap: 20px;
-}
-
-.header__link {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-.header__link::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #ff9900;
-    transition: width 0.3s ease;
-}
-
-.header__link:hover {
-    color: #ff9900;
-}
-
-.header__link:hover::after {
-    width: 100%;
-}
-#contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.cuerpo-cabecera {
-    background-color: #eee;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.contenedor-productos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.productos {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
-
-.productos__fig img {
-    max-width: 100%;
-    height: auto;
-}
-
-.productos__boton {
-    background-color: #333;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    
-}
-  
-   
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="body">
-    <header class="header">
-        <h1 class="header__titulo">
-            <img class="imagem" src="assets/logo.jpg" alt="">
+<body class="carro">
+    <header class="carro__header">
+        <h1 class="carro__titulo">
+            <img class="carro__imagem" src="assets/logo.jpg" alt="">
         </h1>
-        <nav class="header__menu">
-            
-            <a class="header__link" href="catalogo.html">Catalogo</a>
-           
-            <a href="./carro.html" class="header__carrinho">
+        <nav class="carro__menu">
+            <a class="carro__link" href="catalogo.html">Catalogo</a>
+            <a href="./carro.html" class="carro__carrinho">
                 <img src="media/carrito.svg" alt="">
             </a>
-            <span id="carro-contidad-items" class="carro-compras__items" class="">0</span>
-      </nav>
-
+            <span id="carro-contidad-items" class="carro__compras__items" class="">0</span>
+        </nav>
     </header>
     <main id="contenedor">
         <section>
-            <header class="cuerpo-cabecera">
+            <header class="carro__cuerpo-cabecera">
                 <h2>Juegos</h2>
             </header>
             
-            <div class="contenedor-productos" id="contenedor-productos">
+            <div class="carro__contenedor-productos" id="contenedor-productos">
                
-                <article class="productos">
-                    <figure class="productos__fig">
+                <article class="carro__productos">
+                    <figure class="carro__productos__fig">
                         <img src="" alt="" />
                     </figure>
-                    <div class="productos__datos">
+                    <div class="carro__productos__datos">
                         <h3>Titulo</h3>
                         <div>$ 3000</div>
                     </div>
@@ -155,7 +43,7 @@ footer {
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="carro__footer">
         <p>&copy; Tormenta|rpg</p>
         <p>&copy;2023</p>
     </footer>

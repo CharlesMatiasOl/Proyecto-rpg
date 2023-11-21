@@ -24,7 +24,6 @@ contenedor.innerHTML = contenidoHTML;
 
 
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const carroCantidadItems = document.getElementById("carro-contidad-items");
     const botonesProductos = document.querySelectorAll("[data-btn-carro]");
