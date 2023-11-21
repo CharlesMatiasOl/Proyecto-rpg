@@ -76,16 +76,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-// let catalogo;
-// fetch("./catalogo.json")
-//     .then((datos)=>{
-//     return datos.json()
-// }
-// ).then(
-//     (datos)=>{
-//         console.log(datos)
-//     }
-// )
-
-
-console.log('Se tu encuentra esta mensaje en el console log, te amo <3')
