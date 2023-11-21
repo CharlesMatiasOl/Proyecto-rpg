@@ -52,7 +52,7 @@ const producto = {
 
             nombre:"Maligno Magico de Oz",
             imagen:"./media/Maligno-Magico-de-Oz.png",
-            precio: 2500,
+            precio: 8000,
             
         },
         {
@@ -61,7 +61,7 @@ const producto = {
 
             nombre:"Monstronomicon",
             imagen:"./media/monstronomicon.jpg",
-            precio: 2500,
+            precio: 500,
             
         },
         {
@@ -70,7 +70,7 @@ const producto = {
 
             nombre:"Noite do Necromante",
             imagen:"./media/noite-do-necromante.png",
-            precio: 2500,
+            precio: 9990,
             
         },
         {
@@ -79,7 +79,7 @@ const producto = {
 
             nombre:"Tormenta",
             imagen:"./media/Tormenta.png",
-            precio: 2500,
+            precio: 1750,
             
         },
         
