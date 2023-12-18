@@ -33,7 +33,7 @@ if (carroSession) {
     console.log("Não há produtos no carrinho.");
 }
 
-// Se você deseja reutilizar a variável 'htmlVista' para outra finalidade, certifique-se de redefini-la antes de usá-la novamente.
+
 let htmlVistaOutroUso = "";
 
 productosEnCarro.forEach((juego) => {

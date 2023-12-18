@@ -3,7 +3,7 @@ const producto = {
         {
             id: 1,
             nombre:"Ordem Paranormal",
-            imagen:"./media/Ordem.png",
+            imagen:"Recursos/media/Ordem.png",
             precio: 2000,
             
         },
@@ -12,7 +12,7 @@ const producto = {
             id: 2,
 
             nombre:"Deus da guerra",
-            imagen:"./media/deus-da-guerra.jpg",
+            imagen:"Recursos/media/deus-da-guerra.jpg",
             precio: 1000,
             
             
@@ -22,7 +22,7 @@ const producto = {
         {
             id: 3,
             nombre:"Cripta",
-            imagen:"./media/cripta.png",
+            imagen:"Recursos/media/cripta.png",
             precio: 1050,
            
         },
@@ -31,7 +31,7 @@ const producto = {
 
             id: 4,
             nombre:"Lobo Solitario Volumen 2",
-            imagen:"./media/lobo-solitario-mar-em-chamas.png",
+            imagen:"Recursos/media/lobo-solitario-mar-em-chamas.png",
             precio: 2500,
             
         },
@@ -41,7 +41,7 @@ const producto = {
             id: 5,
             
             nombre:"Lobo Solitario Volumen 1",
-            imagen:"./media/Lobo-solitario.png",
+            imagen:"Recursos/media/Lobo-solitario.png",
             precio: 4500,
             
         },
@@ -51,7 +51,7 @@ const producto = {
             id: 6,
 
             nombre:"Maligno Magico de Oz",
-            imagen:"./media/Maligno-Magico-de-Oz.png",
+            imagen:"Recursos/media/Maligno-Magico-de-Oz.png",
             precio: 8000,
             
         },
@@ -60,7 +60,7 @@ const producto = {
             id: 7,
 
             nombre:"Monstronomicon",
-            imagen:"./media/monstronomicon.jpg",
+            imagen:"Recursos/media/monstronomicon.jpg",
             precio: 500,
             
         },
@@ -69,7 +69,7 @@ const producto = {
             id: 8,
 
             nombre:"Noite do Necromante",
-            imagen:"./media/noite-do-necromante.png",
+            imagen:"Recursos/media/noite-do-necromante.png",
             precio: 9990,
             
         },
@@ -78,7 +78,7 @@ const producto = {
             id: 9,
 
             nombre:"Tormenta",
-            imagen:"./media/Tormenta.png",
+            imagen:"Recursos/media/Tormenta.png",
             precio: 1750,
             
         },

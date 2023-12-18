@@ -11,7 +11,7 @@ producto.juegos.forEach((juego) => {
             <p>${juego.nombre}</p>
             <span>$${juego.precio}</span>
             <button class="productos__boton" data-btn-carro data-id=${juego.id}>
-            <img src="./media/carrito.svg" alt="Icono carrito compras"
+            <img src="Recursos/media/carrito.svg" alt="Icono carrito compras"
             />
              Agregar carrito
     </button>
