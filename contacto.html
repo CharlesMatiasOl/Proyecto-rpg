@@ -22,6 +22,20 @@
     <main class="contacto__main">
         <h2>Información de contacto</h2>
         <p>Contáctanos para cualquier duda o consulta:</p>
+
+        <form action="procesar-contacto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+    
+            <input type="submit" value="Enviar">
+        </form>
+        
         <address class="contacto__address">
             <p>Dirección: Av. Duarte Quirós 200</p>
             <p>Ciudad: Córdoba</p>

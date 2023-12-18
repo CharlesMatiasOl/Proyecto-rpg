@@ -3,10 +3,11 @@
     --cor-texto: #fff;
     --cor-destaque: #ff9900;
     --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --font-family: 'Arial', sans-serif; /* Nueva variable para la fuente */
 }
 
 body.index {
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-family); /* Utiliza la variable de fuente */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,16 +93,14 @@ body.index {
     font-family: 'Arial', sans-serif;
 }
 
-
 body.contacto {
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f5f5f5;
     color: #333;
 }
-
 .contacto__header {
     background-color: #333;
     color: #fff;
@@ -192,6 +191,7 @@ body.contacto {
     width: 100%;
 }
 
+
 body.carro, h1.carro, h2.carro, h3.carro, p.carro, figure.carro, img.carro, button.carro {
     margin: 0;
     padding: 0;
@@ -199,7 +199,7 @@ body.carro, h1.carro, h2.carro, h3.carro, p.carro, figure.carro, img.carro, butt
 }
 
 body.carro {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-family); 
 }
 
 .carro__header {
