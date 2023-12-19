@@ -1,57 +1,71 @@
-<!DOCTYPE html>
+<!<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Configuración del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tormenta</title>
+    
+    <!-- Enlace a la hoja de estilos CSS del catálogo -->
     <link rel="stylesheet" href="Recursos/stylecatalogo.css">
+    
+    <!-- Enlace al script de JavaScript principal -->
     <script type="module" src ="Recursos/principal.js"></script>
-   
 </head>
 
 <body class="body">
+    <!-- Encabezado de la página -->
     <header class="header">
         <h1 class="header__titulo">
+            <!-- Logo de la página -->
             <img class="imagem" src="Recursos/assets/logo.jpg" alt="">
         </h1>
+        <!-- Menú de navegación -->
         <nav class="header__menu">
             <a class="header__link" href="index.html">Inicio</a>
             <a class="header__link" href="catalogo.html">Catalogo</a>
             <a class="header__link" href="contacto.html">Contacto</a>
+            <!-- Enlace al carrito de compras -->
             <a href="./carro.html" class="header__carrinho">
                 <img src="Recursos/media/carrito.svg" alt="">
             </a>
+            <!-- Contador de elementos en el carrito -->
             <span id="carro-contidad-items" class="carro-compras__items" class="">0</span>
-      </nav>
-
+        </nav>
     </header>
+
+    <!-- Contenido principal de la página -->
     <main id="contenedor">
         <section>
+            <!-- Cabecera de la sección de productos -->
             <header class="cuerpo-cabecera">
                 <h2>Juegos</h2>
             </header>
            
+            <!-- Contenedor de productos -->
             <div class="contenedor-productos" id="contenedor-productos">
-               
+                <!-- Producto (este bloque se repetirá por cada producto) -->
                 <article class="productos">
+                    <!-- Imagen del producto -->
                     <figure class="productos__fig">
                         <img src="" alt="" />
                     </figure>
+                    <!-- Datos del producto -->
                     <div class="productos__datos">
                         <h3>Titulo</h3>
                         <div>$ 3000</div>
                     </div>
-                    <button
-                        class="productos__boton" data-btn-carro data-id="0"
-                    >
-                    <img src="Recursos/media/carrito.svg" alt="Icono carrito compras"/>
-                        Agregar carrito
+                    <!-- Botón para agregar al carrito -->
+                    <button class="productos__boton" data-btn-carro data-id="0">
+                        <img src="Recursos/media/carrito.svg" alt="Icono carrito compras"/>
+                        Agregar al carrito
                     </button>
                 </article>
-               
             </div>
         </section>
     </main>
+    
+    <!-- Pie de página -->
     <footer>
         <p>&copy; Tormenta|rpg</p>
         <p>&copy;2023</p>

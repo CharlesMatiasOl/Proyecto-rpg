@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Configuración del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tormenta</title>
+
+    <!-- Enlace al script de JavaScript para el carrito -->
     <script type="module" src="Recursos/carrito.js"></script>
+
+    <!-- Enlace a la hoja de estilos CSS -->
     <link rel="stylesheet" href="Recursos/style.css">
 </head>
 
 <body class="carro">
+    <!-- Encabezado de la página del carrito -->
     <header class="carro__header">
         <h1 class="carro__titulo">
+            <!-- Logo de la página del carrito -->
             <img class="carro__imagem" src="Recursos/assets/logo.jpg" alt="">
         </h1>
+        <!-- Menú de navegación y enlace al carrito de compras -->
         <nav class="carro__menu">
             <a class="carro__link" href="catalogo.html">Catalogo</a>
             <a href="./carro.html" class="carro__carrinho">
+                <!-- Icono de carrito de compras -->
                 <img src="Recursos/media/carrito.svg" alt="">
             </a>
-            <span id="carro-contidad-items" class="carro__compras__items" class="">0</span>
+            <!-- Cantidad de items en el carrito -->
+            <span id="carro-contidad-items" class="carro__compras__items">0</span>
         </nav>
     </header>
+
+    <!-- Contenido principal de la página del carrito -->
     <main id="contenedor">
+        <!-- Sección que contiene la lista de productos en el carrito -->
         <section>
+            <!-- Cabecera de la sección de productos en el carrito -->
             <header class="carro__cuerpo-cabecera">
                 <h2>Juegos</h2>
             </header>
             
+            <!-- Contenedor de productos en el carrito -->
             <div class="carro__contenedor-productos" id="contenedor-productos">
                
+                <!-- Producto en el carrito (este bloque se repetirá por cada producto) -->
                 <article class="carro__productos">
                     <figure class="carro__productos__fig">
+                        <!-- Imagen del producto -->
                         <img src="" alt="" />
                     </figure>
                     <div class="carro__productos__datos">
+                        <!-- Nombre del producto -->
                         <h3>Titulo</h3>
+                        <!-- Precio del producto -->
                         <div>$ 3000</div>
                     </div>
-                    
                 </article>
                
             </div>
         </section>
     </main>
+
+    <!-- Pie de página de la página del carrito -->
     <footer class="carro__footer">
+        <!-- Información de derechos de autor y año -->
         <p>&copy; Tormenta|rpg</p>
         <p>&copy;2023</p>
     </footer>
